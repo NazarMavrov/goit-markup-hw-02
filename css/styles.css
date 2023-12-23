@@ -20,6 +20,7 @@ ul {list-style: none;}
 }
 /* -----header----- */
 .header-logo {
+    color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -29,7 +30,7 @@ ul {list-style: none;}
 }
 
 .header-logo-color {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-nav-link {
@@ -45,7 +46,7 @@ ul {list-style: none;}
     color: #404BBF;
 }
 
-.header-address-link {
+.header-address {
     font-style: normal;
 }
 
@@ -79,12 +80,18 @@ ul {list-style: none;}
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: #4D5AE5
+}
 
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: #404BBF
 }
 /* -----hero-section----- */
 
 /* -----feautures-section----- */
 .feautures-name {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -110,6 +117,11 @@ ul {list-style: none;}
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
 }
 
 .team-list-item-name {
@@ -137,6 +149,7 @@ ul {list-style: none;}
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-list-item-name {
